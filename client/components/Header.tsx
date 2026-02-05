@@ -66,28 +66,28 @@ export default function Header() {
           <nav className="md:hidden pb-4 space-y-2">
             <Link
               to="/programs"
-              className="block px-4 py-2 text-foreground hover:bg-gray-100 rounded transition-colors"
+              className="block px-4 py-2 text-foreground hover:bg-muted rounded transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Programs
             </Link>
             <Link
               to="/trainers"
-              className="block px-4 py-2 text-foreground hover:bg-gray-100 rounded transition-colors"
+              className="block px-4 py-2 text-foreground hover:bg-muted rounded transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Trainers
             </Link>
             <Link
               to="/schedule"
-              className="block px-4 py-2 text-foreground hover:bg-gray-100 rounded transition-colors"
+              className="block px-4 py-2 text-foreground hover:bg-muted rounded transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Schedule
             </Link>
             <Link
               to="/plans"
-              className="block px-4 py-2 text-foreground hover:bg-gray-100 rounded transition-colors"
+              className="block px-4 py-2 text-foreground hover:bg-muted rounded transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Plans
