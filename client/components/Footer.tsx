@@ -14,15 +14,15 @@ export default function Footer() {
               </div>
               <span>FitStart</span>
             </div>
-            <p className="text-gray-400 text-sm">
+            <p className="text-muted-foreground text-sm">
               Your journey to fitness starts here. Join thousands of students transforming their lives.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold mb-4">Programs</h3>
-            <ul className="space-y-2 text-gray-400 text-sm">
+            <h3 className="font-semibold mb-4 text-foreground">Programs</h3>
+            <ul className="space-y-2 text-muted-foreground text-sm">
               <li>
                 <Link to="/programs" className="hover:text-primary transition-colors">
                   Weight Loss
