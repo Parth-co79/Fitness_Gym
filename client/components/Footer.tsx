@@ -48,8 +48,8 @@ export default function Footer() {
 
           {/* Resources */}
           <div>
-            <h3 className="font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2 text-gray-400 text-sm">
+            <h3 className="font-semibold mb-4 text-foreground">Resources</h3>
+            <ul className="space-y-2 text-muted-foreground text-sm">
               <li>
                 <Link to="/trainers" className="hover:text-primary transition-colors">
                   Find a Trainer
