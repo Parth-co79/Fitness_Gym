@@ -104,10 +104,10 @@ export default function Footer() {
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
               <Facebook className="w-5 h-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
               <Instagram className="w-5 h-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
               <Twitter className="w-5 h-5" />
             </a>
           </div>
