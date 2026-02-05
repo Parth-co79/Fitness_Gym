@@ -75,8 +75,8 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-semibold mb-4">Get in Touch</h3>
-            <ul className="space-y-3 text-gray-400 text-sm">
+            <h3 className="font-semibold mb-4 text-foreground">Get in Touch</h3>
+            <ul className="space-y-3 text-muted-foreground text-sm">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 <a href="mailto:hello@fitstart.com" className="hover:text-primary transition-colors">
