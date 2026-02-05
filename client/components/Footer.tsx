@@ -98,10 +98,10 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-800 pt-8 mb-8">
+        <div className="border-t border-border pt-8 mb-8">
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-6">
-            <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
               <Facebook className="w-5 h-5" />
             </a>
             <a href="#" className="text-gray-400 hover:text-primary transition-colors">
