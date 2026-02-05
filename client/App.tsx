@@ -35,7 +35,14 @@ const App = () => (
   </QueryClientProvider>
 );
 
+declare global {
+  interface Window {
+    __REACT_ROOT_INITIALIZED__?: boolean;
+  }
+}
+
 const rootElement = document.getElementById("root");
-if (rootElement && !rootElement._reactRootContainer) {
+if (rootElement && !window.__REACT_ROOT_INITIALIZED__) {
+  window.__REACT_ROOT_INITIALIZED__ = true;
   createRoot(rootElement).render(<App />);
 }
