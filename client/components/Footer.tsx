@@ -114,7 +114,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="text-center text-gray-400 text-sm">
+        <div className="text-center text-muted-foreground text-sm">
           <p>&copy; 2024 FitStart. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
       </div>
