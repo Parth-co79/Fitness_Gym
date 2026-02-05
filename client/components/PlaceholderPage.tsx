@@ -15,7 +15,9 @@ export default function PlaceholderPage({
   return (
     <div className="min-h-[60vh] flex items-center justify-center px-4">
       <div className="text-center max-w-2xl">
-        {icon && <div className="flex justify-center mb-6 text-primary">{icon}</div>}
+        {icon && (
+          <div className="flex justify-center mb-6 text-primary">{icon}</div>
+        )}
         <h1 className="text-4xl font-bold text-foreground mb-4">{title}</h1>
         <p className="text-lg text-gray-600 mb-8">{description}</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -57,7 +57,11 @@ export default function Header() {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden text-foreground"
           >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
